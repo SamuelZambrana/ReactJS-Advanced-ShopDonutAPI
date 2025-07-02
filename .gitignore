@@ -1,0 +1,18 @@
+# 🧠 Dependencias de Node.js
+node_modules/
+
+# 🔐 Archivos de entorno
+.env
+
+# 🧾 Archivos de logs y debug
+*.log
+npm-debug.log
+
+# 🧰 Configuración de editores/IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# 📁 Archivos locales o sensibles personalizados
+users.txt
+donuts.txt
