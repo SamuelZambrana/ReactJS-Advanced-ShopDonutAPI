@@ -57,7 +57,6 @@ cd ReactJS-Advanced-ShopDonut/backend
 # Instala las dependencias
 npm install
 
-# Crea tu archivo .env con las variables necesarias
 # Luego ejecuta el servidor en modo desarrollo
 npm run dev
 
