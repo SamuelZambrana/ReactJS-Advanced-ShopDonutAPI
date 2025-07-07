@@ -15,7 +15,7 @@ const { verifyToken, verifyAdmin }= require('../middlewares/auth');
 router.post('/', addDonut)
 router.get('/', getAllDonuts);
 router.get('/:idDonut', getByIdDonut);
-router.patch('/updateDonut/:idDonut',verifyToken, verifyAdmin, updateDonut);
+router.put('/updateDonut/:idDonut',verifyToken, verifyAdmin, updateDonut);
 router.delete('/removeDonut/:idDonut',verifyToken, verifyAdmin, removeDonut);
 
 
